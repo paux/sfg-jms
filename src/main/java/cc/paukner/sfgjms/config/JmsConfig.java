@@ -10,6 +10,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String MY_QUEUE = "hello-world-queue";
+    public static final String MY_TXRX_QUEUE = "reply-back-to-me";
 
     // serialize POJO into JSON and then into JMS message
     @Bean
